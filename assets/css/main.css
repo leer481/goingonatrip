@@ -1,0 +1,54 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.image {
+	position: absolute;
+	width: 1679px;
+	height: 1000px;
+	z-index: -1;
+}
+
+h1 {
+	font-family: Degular;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 20%;
+}
+
+.text {
+	position: absolute;
+	font-family: Degular;
+	font-style: normal;
+	top: 47%;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-right: 35%;
+	padding-left: 35%;
+
+}
+
+.continue {
+	font-family: Degular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	position: absolute;
+	color: white;
+	left: 14.21%;
+	right: 14.21%;
+	bottom: 34.33%;
+
+
+}
