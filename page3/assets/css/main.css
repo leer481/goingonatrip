@@ -1,28 +1,41 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	background: #BCAAC4;
 }
 
-.image {
-	position: absolute;
-	width: 1521px;
-	height: 756px;
-	left: 79px;
-	top: 25px;
+.back {
+	position: relative;
+	width: 100%;
+	top:0;
+	z-index: -1;	
+}
+
+.top {
+	position: -webkit-fixed;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;	
 }
 
 .continue {
-	font-family: Degular;
+	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 36px;
-	line-height: 48px;
-	text-align: center;
-	position: absolute;
-	color: white;
-	left: 14.21%;
-	right: 14.21%;
-	bottom: 3%;
+	font-size: 11px;
+	line-height: 18px;
+	position: fixed;
+	top: 1.7%;
+	left: 17%;
+	-webkit-background-clip: text;
+	z-index: 2;
 
+}
+
+.continue:hover {
+  	background: #0f3ca0;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	cursor: pointer;
+  	z-index: 2;
 }

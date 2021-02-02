@@ -1,28 +1,32 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	background: #88A5D4;
 }
 
 .image {
 	position: absolute;
-	width: 1521px;
-	height: 756px;
-	left: 79px;
-	top: 25px;
+	width: 100%;
+	height: 100%;
+	top: 0px;
 }
 
 .continue {
-	font-family: Degular;
+	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 36px;
-	line-height: 48px;
+	font-size: 11px;
+	line-height: 18px;
 	text-align: center;
 	position: absolute;
-	color: white;
-	left: 14.21%;
-	right: 14.21%;
-	bottom: 3%;
+	color: black;
+	top: 1.2%;
+	left: 17%;
+	-webkit-background-clip: text;
+}
 
+.continue:hover {
+  	background: #b52c1a;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	cursor: pointer;
 }
